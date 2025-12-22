@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+sales_bi/
+sales_bi_env/
+
+# Jupyter
+.ipynb_checkpoints
+
+
+# Power BI
+*.pbix
+
+# Databricks
+*.dbc
+
+# Data files (keep raw/processed empty or sample only)
+data/raw/*.csv
+data/processed/*.csv
+data/curated/*.csv
+
+# Logs
+*.log
